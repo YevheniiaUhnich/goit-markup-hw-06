@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link 
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <Link rel="stylesheet" href="./css/styles.css" />  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+  </head> 
+   
+  <body>
+
+    <header class="header-container">
+    <div class="container-logo-nav container">
+      <nav class="navigation-list">
+        
+        <a href="./index.html" class="logo-header">Web<span class="logo-header-text">Studio</span></a> 
+
+       <ul class="menu"> 
+        <li class="menu-title-text">
+          <a href="./index.html" class="my-link carent">Studio</a></li>
+        <li class="menu-title-text">
+          <a href="" class="my-link">Portfolio</a></li>
+        <li class="menu-title-text">
+          <a href="" class="my-link">Contacts</a></li>
+      
+      </ul>   
+      </nav>
+
+       <address class="link-contact">     
+        <ul class="link-contact-all">
+        
+          <li class="contact-all"><a href="mailto:info@devstudio.com" class="link-contact-text">info@devstudio.com</a></li>
+          <li class="contact-all"><a href="tel:+110001111111" class="link-contact-text">+11 (000) 111-11-11</a></li>  
+        
+        </ul>      
+      </address>  
+    </div>       
+    </header>
+    <main>
+
+      <!--Section 1-->
+
+    <section class="post">
+      <div class="container">
+
+      <h1 class="post-title">Effective Solutions for Your Business</h1>
+  
+      <button class="button-style is-open" onclick="openModal()" type="button">Order Service</button>
+      </div>   
+    </section>
+
+   <!--Section 2-->
+
+    <section class="tytle-section">
+      <div class="container"> 
+        <h2 class="visually-hidden">TytleTwoSection</h2>
+       
+        <ul class="tytle-list-section">
+        
+          <li class="tytle-section-list">
+            <div class="section-icons-list">
+            <svg class="icons-section" width="64" height="64">
+              <use href="./images/icons.svg#icon-antenna"></use>
+            </svg> 
+          </div>
+        <h3 class="title">Strategy</h3>
+        <p class="text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+        </li>
+        
+        <li class="tytle-section-list">
+          <div class="section-icons-list">
+            <svg class="icons-section" width="64" height="64">
+              <use href="./images/icons.svg#icon-clock"></use>
+            </svg>
+          </div>
+
+          <h3 class="title">Punctuality</h3>
+          <p class="text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+        </li>
+       
+        <li class="tytle-section-list">
+          <div class="section-icons-list">
+            <svg class="icons-section" width="64" height="64">
+              <use href="./images/icons.svg#icon-diagram"></use>
+            </svg>
+          </div>
+
+        <h3 class="title">Diligence</h3>
+        <p class="text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>  
+        </li>
+
+        <li class="tytle-section-list">
+          <div class="section-icons-list">
+            <svg class="icons-section" width="64" height="64">
+              <use href="./images/icons.svg#icon-astronaut"></use>
+            </svg>
+          </div>
+        <h3 class="title">Technologies</h3>
+        <p class="text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>  
+      </li>      
+      </ul>
+    </div> 
+    </section>
+
+    <!--Section 3-->
+
+    <section class="blok-post-team">
+      <div class="container">
+      <h2 class="post-team">Our Team</h2>
+
+      <ul class="section-block-team">
+      <li class="block-cards-team"> 
+        <img src="./images/TeamCard1.jpg" alt="TeamCard1" width="264" />
+        <div class="description-team">
+        <h3 class="box-title">Mark Guerrero</h3>
+        <p class="box-post">Product Designer</p>
+       
+          <ul class="block-icons-team">
+          <li class="icons-block-kards-team"><a href="./index.html" class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg></a>
+        </li>
+          <li class="icons-block-kards-team"><a href="./index.html" class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a href="./index.html" class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+              </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a href="./index.html" class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg></a>
+          </li>
+          </ul>
+        
+        </div>
+      </li>
+      
+      <li class="block-cards-team">
+        <img src="./images/TeamCard2.jpg" alt="TeamCard2" width="264" />
+        <div class="description-team">
+        <h3 class="box-title">Tom Ford</h3>
+        <p class="box-post">Frontend Developer</p>
+          <ul class="block-icons-team">
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg></a>
+        </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+              </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg></a>
+          </li>
+          </ul>
+    
+        </div>
+      </li> 
+      
+     
+        <li class="block-cards-team">  
+        <img src="./images/TeamCard3.jpg" alt="TeamCard3" width="264" />
+        <div class="description-team">
+        <h3 class="box-title">Camila Garcia</h3>
+        <p class="box-post">Marketing</p>
+       
+          <ul class="block-icons-team">
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg></a>
+        </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+              </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg></a>
+          </li>
+          </ul>
+        
+        </div>
+        </li>
+
+        <li class="block-cards-team"> 
+        <img src="./images/TeamCard4.jpg" alt="TeamCard4" width="264" />
+        <div class="description-team"> 
+        <h3 class="box-title">Daniel Wilson</h3>
+        <p class="box-post">UI Designer</p>
+        
+          <ul class="block-icons-team">
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg></a>
+        </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+            <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+              </svg></a>
+          </li>
+          <li class="icons-block-kards-team"><a class="icons-team-link">
+            <svg class="icons-block-kards" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg></a>
+          </li>
+          </ul>       
+        </div>
+      </li>      
+      </ul>
+      </div>
+    </section>
+
+    <!--Section 4-->
+    <section class="block-portfolio"> 
+      <div class="container"> 
+    <h2 class="title-list">Our Portfolio</h2>
+    
+    <ul class="section-title-block"> 
+      <li class="description-potfolio">
+
+        <div class="box-hiden">
+        <img src="./images/BankingApp.jpg"
+        alt="BankingApp"
+        width="360" />
+        <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+        </div>
+
+        <div class="description-potfolio-title">
+        <h3 class="list-title-block">Banking App</h3>
+        <p class="text-title-block">App</p>
+        </div>
+      </li>
+  
+      <li class="description-potfolio">
+        <div class="box-hiden">
+        <img src="./images/CashlessPayment.jpg"
+        alt="CashlessPayment"
+        width="360" />
+        <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+        </div>
+
+        <div class="description-potfolio-title"> 
+        <h3 class="list-title-block">Cashless Payment</h3>
+        <p class="text-title-block">Marketing</p>
+        </div>
+      </li>
+
+      <li class="description-potfolio"> 
+        <div class="box-hiden">    
+        <img src="./images/MeditationApp.jpg"
+        alt="MeditationApp"
+        width="360" />
+        <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+        </div>  
+
+        <div class="description-potfolio-title">
+        <h3 class="list-title-block">Meditation App</h3>
+        <p class="text-title-block">App</p>
+        </div>
+      </li>
+
+      <li class="description-potfolio">
+       <div class="box-hiden">
+       <img src="./images/TaxiServiceMarketing.jpg"
+       alt="TaxiServiceMarketing"
+       width="360" />
+       <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+        </div> 
+
+       <div class="description-potfolio-title"> 
+        <h3 class="list-title-block">Taxi Service</h3>
+        <p class="text-title-block">Marketing</p>
+        </div>
+      </li>
+
+      <li class="description-potfolio">
+       <div class="box-hiden">
+       <img src="./images/ScreenIllustrationsDesign.jpg"
+       alt="ScreenIllustrationsDesign"
+       width="360" />
+       <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+      </div> 
+
+       <div class="description-potfolio-title">
+        <h3 class="list-title-block">Screen Illustrations</h3>
+        <p class="text-title-block">Design</p>
+        </div>
+      </li>
+
+      <li class="description-potfolio">
+        <div class="box-hiden">
+        <img src="./images/OnlineCoursesMarketing.jpg"
+        alt="OnlineCoursesMarketing"
+        width="360" />
+        <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
+        </div>
+
+        <div class="description-potfolio-title">
+        <h3 class="list-title-block">Online Courses</h3>
+        <p class="text-title-block">Marketing</p>
+        </div>
+      </li>
+    </ul>  
+    </div>
+    </section>         
+    </main>
+
+    <footer class="last-block">
+
+      <div class="container container-footer" >
+      <div class="container-box">
+      <a href="./index.html" class="box-last-logo">Web<span class="text-studio">Studio</span></a>
+
+      <p class="box-last-text">Increase the flow of customers and 
+        sales for your business with digital
+        marketing & growth solutions.</p>
+     </div>
+
+      <div class="container-social" >
+      <p class="social-link">Social media</p> 
+
+      <ul class="block-icons-footer">
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg></a>
+      </li>
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+          <use href="./images/icons.svg#icon-twitter"></use>
+          </svg></a>
+        </li>
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+            <use href="./images/icons.svg#icon-facebook"></use>
+            </svg></a>
+        </li>
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg></a>
+        </li>
+        </ul>
+      </div>
+
+      <div class="footer-form-section">
+        <p class="form-field">Subscribe</p> 
+         <form class="form-style">
+          
+          <label class="form-style-set"> 
+          <input class="form-style-field" type="email" name="subscribe" placeholder="E-mail" autofocus />  
+          </label>
+
+          
+          <button class="footer-button" type="submit">
+            Subscribe
+            <svg class="footer-icons-frame" width="24" height="24">
+            <use href="./images/icons.svg#icon-Frame"></use>
+            </svg></button>
+          
+        </form>
+      </div>
+      </div> 
+    </footer>
+  
+
+
+    <!-- Modal section all -->
+    <div class="modal-backdrop is-hidden" id="id-modal-backdrop">
+    <!-- Modal window -->
+    <div class="modal-window">
+    <button class="close" type="button" id="id-close">
+      <svg class="close-x-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+
+     <!-- Text modal section-->
+     <p class="title-form">Leave your contacts and we will call you back</p>
+
+     <form class="container-form-description" name="inputs" autocomplete="off" novalidate>
+
+    <div class="form-input-wrap">
+    <label class="text-input-wrap" for="user-name">Name</label>
+    <div class="input-wrap">
+      <input class="text-line-input" id="user-name" name="user-name" type="text" /> 
+      <svg class="icon-in-boxes" width="18" height="24">
+         <use href="./images/icons.svg#icon-person">
+        </use>
+      </svg>
+    </div>   
+    </div>
+    
+    <div class="form-input-wrap">
+    <label class="text-input-wrap" for="phone">Phone</label>
+    <div class="input-wrap">
+       <input class="text-line-input" id="phone" name="phone" type="tel" />
+       <svg class="icon-in-boxes" width="18" height="24">
+        <use class="icon" href="./images/icons.svg#icon-phone">
+       </use>
+     </svg>
+    </div>
+    </div>
+      
+    <div class="form-input-wrap">
+    <label class="text-input-wrap" for="email">Email</label>
+    <div class="input-wrap">
+    <input class="text-line-input" id="email" name="email" type="email" />
+      <svg class="icon-in-boxes" width="18" height="24">
+        <use href="./images/icons.svg#icon-email">
+       </use>
+     </svg>
+      </div>
+      </div>
+
+      <div class="form-input-wrap form-input-wrap-addition">
+      <label class="text-input-wrap" for="user-comment">
+        Comment
+      </label> 
+      
+      <textarea class="label-comment-title"  id="user-comment" name="user-comment" rows="8"
+      placeholder="Text input">
+      </textarea>    
+    </div>
+
+    <div class="checkbox-addition">
+      <input id="user-privacy" type="checkbox"  value="true"  name="user-privacy" class="visually-hidden checkbox-addition-privacy" />
+    <label class="checkbox-label-text checkbox-label-text-addition"  for="user-privacy">
+      <span class="text-first-part">
+      <svg width="10" height="8">
+        <use href="./images/icons.svg#icon-vector">
+        </use>
+       </svg>
+      </span>
+        I accept the terms and conditions of the       
+     <a class="text-privat" href="./index.html">Privacy Policy</a> 
+    </label>
+    </div>
+
+   <button  class="send-form" type="submit">Send</button>
+
+   </form>
+  
+  </div>
+
+<script>
+  var buttonStyle = document.querySelector('.button-style');
+  var modalBackdrop = document.querySelector('.modal-backdrop');
+  var Close = document.querySelector('.close');
+  buttonStyle.addEventListener('click', function () {
+    modalBackdrop.classList.remove('is-hidden');
+  });
+  close.addEventListener('click', function () {
+    modalBackdrop.classList.add('is-hidden');
+  });
+</script>
+</div>
+</body>
+</html>
