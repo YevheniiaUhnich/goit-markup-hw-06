@@ -881,6 +881,13 @@ img {
     gap: 24px;  
 }
 
+.section-block-team-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+}
+
 .block-icons-team {
     display: flex;
     justify-content: center;
@@ -931,6 +938,14 @@ img {
     padding: 120px 0;
 }
 
+.block-post-team-mobile {
+    background-color: #F4F4FD;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -954,6 +969,19 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+
+.post-team-mobile {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    margin-top: 72px;
 }
 
 .block-cards-team {
