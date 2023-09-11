@@ -23,7 +23,20 @@
    
   <body>
 
+    <!-- header container mobile -->
     <header class="header-container">
+
+    <div class="container-mobile">
+      <a href="./index.html" class="logo-header logo-header-mobile">Web<span class="logo-header-text">Studio</span></a> 
+      <svg class="icon-mobile-header" width="24" height="24">
+        <use href="./images/icons.svg#icon-solid"></use>
+      </svg>
+    </div>  
+    </div>
+</header>
+
+
+    <!-- <header class="header-container">
     <div class="container-logo-nav container">
       <nav class="navigation-list">
         
@@ -49,13 +62,14 @@
         </ul>      
       </address>  
     </div>       
-    </header>
-    <main>
+    </header> -->
+    
+<main>
 
-      <!--Section 1-->
+      <!-- Section 1 -->
 
-    <section class="post">
-      <div class="container">
+<section class="post-mobile">
+      <div class="container-mobile-all">
 
       <h1 class="post-title">Effective Solutions for Your Business</h1>
   
@@ -63,9 +77,51 @@
       </div>   
     </section>
 
-   <!--Section 2-->
 
-    <section class="tytle-section">
+      <!-- Section 1 -->
+
+    <!-- <section class="post">
+      <div class="container">
+
+      <h1 class="post-title">Effective Solutions for Your Business</h1>
+  
+      <button class="button-style is-open" onclick="openModal()" type="button">Order Service</button>
+      </div>   
+      </section> -->
+
+        <!--Section 2-->
+        <section class="tytle-section-mobile">
+          <div class="container-mobile-all"> 
+            <h2 class="visually-hidden">TytleTwoSection</h2>
+           
+            <ul class="tytle-list-section-mobile">
+            
+              <li class="tytle-section-list-mobile">
+            <h3 class="title-mobile">Strategy</h3>
+            <p class="text-mobile">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+            </li>
+            
+            <li class="tytle-section-list-mobile">    
+              <h3 class="title-mobile">Punctuality</h3>
+              <p class="text-mobile">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+            </li>
+           
+            <li class="tytle-section-list-mobile">
+            <h3 class="title-mobile">Diligence</h3>
+            <p class="text-mobile">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>  
+            </li>
+    
+            <li class="tytle-section-list-mobile">
+            <h3 class="title-mobile">Technologies</h3>
+            <p class="text-mobile">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>  
+          </li>  
+
+          </ul>
+        </div> 
+        </section> 
+
+        <!--Section 2-->
+    <!-- <section class="tytle-section">
       <div class="container"> 
         <h2 class="visually-hidden">TytleTwoSection</h2>
        
@@ -114,11 +170,11 @@
       </li>      
       </ul>
     </div> 
-    </section>
+    </section> -->
 
     <!--Section 3-->
 
-    <section class="blok-post-team">
+    <!-- <section class="blok-post-team">
       <div class="container">
       <h2 class="post-team">Our Team</h2>
 
@@ -251,10 +307,10 @@
       </li>      
       </ul>
       </div>
-    </section>
+    </section> -->
 
     <!--Section 4-->
-    <section class="block-portfolio"> 
+    <!-- <section class="block-portfolio"> 
       <div class="container"> 
     <h2 class="title-list">Our Portfolio</h2>
     
@@ -405,7 +461,7 @@
       </div>
       </div> 
     </footer>
-  
+   -->
 
 
     <!-- Modal section all -->
@@ -498,5 +554,78 @@
   });
 </script>
 </div>
+
+
+<!-- Modal section mobile -->
+
+<div class="backdrop-mobile is-hidden-mobile" backdrop-mobile id="backdrop-mobile">
+
+  <!-- Modal window -->
+
+  <div class="modal-window-mobile" backdrop-mobile>
+    <!-- <button class="close-mobile" type="button" id="id-close"> -->
+      <svg class="close-icon-mobile" close-icon-mobile click width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <ul class="menu-mobile"> 
+      <li class="menu-title-text-mobile">
+        <a href="./index.html" class="my-link-mobile carent-mobile">Studio</a></li>
+      <li class="menu-title-text-mobile">
+        <a href="" class="my-link-mobile">Portfolio</a></li>
+      <li class="menu-title-text-mobile">
+        <a href="" class="my-link-mobile">Contacts</a></li>
+    
+    </ul> 
+    
+    <address class="link-contact-mobile">     
+      <ul class="link-contact-all-mobile">
+        <li class="contact-all-mobile contact-phone"><a href="tel:+110001111111" class="link-contact-text-mobile">+11 (000) 111-11-11</a></li>
+        <li class="contact-all-mobile" ><a href="mailto:info@devstudio.com" class="link-contact-text-mobile">info@devstudio.com</a></li>
+        
+      
+      </ul>      
+    </address>  
+
+    <div class="container-social-mobile">
+      <ul class="block-icons-footer-mobile">
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg></a>
+      </li>
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+          <use href="./images/icons.svg#icon-twitter"></use>
+          </svg></a>
+        </li>
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+            <use href="./images/icons.svg#icon-facebook"></use>
+            </svg></a>
+        </li>
+        <li class="icons-block-footer"><a href="./index.html" class="icons-footer-link">
+          <svg class="icons-footer-social-link" width="24" height="24">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg></a>
+        </li>
+        </ul>
+      </div>
+
+      <script>
+        var iconMobileHeader = document.querySelector('.icon-mobile-header');
+        var backdropMobile = document.querySelector('.backdrop-mobile');
+        var closeIconMobile = document.querySelector('.close-icon-mobile');
+        iconMobileHeader.addEventListener('click', function () {
+          backdropMobile.classList.remove('is-hidden-mobile');
+        });
+        close.addEventListener('click', function () {
+          backdropMobile.classList.add('is-hidden');
+        });
+      </script>
+  </div>
+
+     <!-- Text modal section-->
 </body>
 </html>
