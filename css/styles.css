@@ -1560,13 +1560,11 @@ input::placeholder {
 }
 
 .form-style-set:hover {
-    border: 1px solid #FFFFFF; 
     border-radius: 4px; 
     background-color:  #2E2F42;
 }
 
 .form-style-set:focus {
-    border: 1px solid #FFFFFF; 
     border-radius: 4px; 
     background-color:  #2E2F42;
 }
