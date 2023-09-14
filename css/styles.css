@@ -36,7 +36,8 @@
 
 @media (min-width: 1158px) {
     .header-container {
-    min-width: 1158px;
+    min-width: 1440px;
+    margin-left: 72px;
 
     }
 }
@@ -957,7 +958,7 @@
 @media (min-width:1158px) {
     .post {
         max-height: 600px;
-        min-width: 1158px;
+        min-width: 1440px;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
         max-width: 1440px;
@@ -1112,7 +1113,6 @@ img {
     .section-block-team {
         flex-direction: row;
         gap: 24px;  
-        margin-right: 156px;
     }
 }
 
@@ -1191,8 +1191,9 @@ img {
     .block-post-team {
         flex-direction: row;
         height: 732px;
-        width: 1440px;
+        min-width: 1440px;
         margin-top: 120px;
+        margin-left: 80px;
         
 
     }
@@ -1436,15 +1437,15 @@ img {
 
 @media(min-width:1158px) {
     .container-footer {
+        min-width: 1158px;
         flex-direction: row;
-        align-items: baseline;
+        
     }
 }
 
 @media(min-width:768px) and (max-width:1157px) {
     .container-footer {
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;   
     }
 }
 
@@ -1460,7 +1461,7 @@ img {
 
 @media(min-width:1158px) {
     .container-box {
-        margin-left: 86px;
+        margin-left: 64px;
         margin-bottom: 100px;
         align-items: flex-start;
     }  
@@ -1487,7 +1488,8 @@ img {
     .last-block {
         display: block;
         height: 312px;
-        width: 1158px;
+        min-width: 1440px;
+        margin-left: 72px;
     }
 }
 
@@ -1545,6 +1547,12 @@ img {
     flex-direction: row;
     justify-content: center;
     gap: 16px;
+}
+
+@media (min-width:1158px) {
+    .block-icons-footer {
+        margin-left: 98px;
+    }
 }
 
 .icons-block-footer {
@@ -1609,10 +1617,9 @@ img {
     }
 }
 
-
 @media(min-width:1158px) {
     .social-link {
-        display: inline-block;
+        margin-top: 96px;
     }
 }
 
@@ -1670,6 +1677,7 @@ img {
 
 @media(min-width:1158px) {
     .form-field {
+    text-align: start;
     margin-left: 80px;
     margin-bottom: 16px;
     }
