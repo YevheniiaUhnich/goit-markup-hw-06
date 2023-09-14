@@ -22,7 +22,6 @@
     }
 }
 
-
 .header-container {
     display: flex;
     border: 0px, 0px, 1px, 0px CORNFLOWER #E7E9FC; 
@@ -94,7 +93,6 @@
 }
 
 .container {
-    width: 100%;
     padding-left: 16px;
     margin: 0 auto;
 }
@@ -837,7 +835,10 @@
     letter-spacing: 0.02em;
     width: 200px;
     height: 160px;
-    margin: 72px auto 48px;
+    margin-left: 40px;
+    margin-top: 40px;
+
+    
 }
 
 @media (min-width:1158px) {
@@ -852,6 +853,7 @@
     .post-title {
         min-width: 496px;
         font-size: 56px;
+        margin-top: 112px;
     }
 }
 
@@ -860,8 +862,7 @@
     flex-direction: column;
     justify-content: center;
     justify-content: center; 
-    width: 320px;
-    width: 100%;
+    width: 288px;
     margin-bottom: 72px;
 }
 
@@ -1001,7 +1002,7 @@
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin: 72px auto; 
+    margin: 72px; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
@@ -1040,6 +1041,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 288px;
+    height: 72px;
 }
 
 @media (min-width:1158px) {
@@ -1049,10 +1051,16 @@ img {
     }
 }
 
+.tytle-section {
+    min-width:288px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
 @media (min-width:1158px) {
     .tytle-section {
         min-width: 1158px;
-        display: flex;
         flex-direction: row;
         gap: 12px;
     }
