@@ -36,9 +36,7 @@
 
 @media (min-width: 1158px) {
     .header-container {
-    min-width: 1440px;
-    margin-left: 72px;
-
+    min-width: 1158px;
     }
 }
 .logo-header {
@@ -103,7 +101,7 @@
 
 @media (min-width:1158px) {
     .container {
-        width: 1158px;
+        min-width: 1158px;
         padding: 0 16px; 
     }
 }
@@ -967,7 +965,7 @@
 @media (min-width:1158px) {
     .post {
         max-height: 600px;
-        min-width: 1440px;
+        min-width: 1158px;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
         max-width: 1440px;
@@ -1200,11 +1198,8 @@ img {
     .block-post-team {
         flex-direction: row;
         height: 732px;
-        min-width: 1440px;
+        min-width: 1158px;
         margin-top: 120px;
-        margin-left: 80px;
-        
-
     }
 }
 
@@ -1446,9 +1441,8 @@ img {
 
 @media(min-width:1158px) {
     .container-footer {
-        min-width: 1158px;
-        flex-direction: row;
-        
+        width: 1440px;
+        flex-direction: row;        
     }
 }
 
@@ -1470,7 +1464,7 @@ img {
 
 @media(min-width:1158px) {
     .container-box {
-        margin-left: 64px;
+        margin-left: 20px;
         margin-bottom: 100px;
         align-items: flex-start;
     }  
@@ -1498,7 +1492,7 @@ img {
         display: block;
         height: 312px;
         min-width: 1440px;
-        margin-left: 72px;
+        
     }
 }
 
@@ -1636,7 +1630,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .footer-button {
@@ -1687,7 +1680,7 @@ img {
 @media(min-width:1158px) {
     .form-field {
     text-align: start;
-    margin-left: 80px;
+    margin-left: 68px;
     margin-bottom: 16px;
     }
 }
