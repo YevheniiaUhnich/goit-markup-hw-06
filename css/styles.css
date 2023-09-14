@@ -905,31 +905,25 @@
     }
 }
 
-@media (min-width:768px) and (max-width:1157px) {
-    .tytle-list-section {
+@media (min-width:320px) and (max-width:1157px) {
+    .icons-section {
         display: none;
     }
 }
 
-@media (min-width:320px) and (max-width:768px) {
-    .tytle-list-section {
+@media (min-width:320px) and (max-width:1157px) {
+    .section-icons-list {
         display: none;
     }
 }
 
-@media (max-width:320px) {
-    .tytle-list-section {
-        display: none;
-    }
-}
-
-.section-icons-list {
+/* .section-icons-list {
     display: flex;
     background-color: #F4F4FD;
     border: 1px;
     border-radius: 4px;
     margin-bottom: 8px;
-}
+} */
 
 @media (min-width:1158px) {
     .section-icons-list {
@@ -966,9 +960,8 @@
     .post {
         max-height: 600px;
         min-width: 1158px;
-        padding: 188px 0;
+        /* padding: 188px 0; */
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
-        max-width: 1440px;
         margin-bottom: 120px;
     }
 }
@@ -1037,13 +1030,6 @@
 img {
     display: block;
     object-fit: cover;
-}
-
-@media (min-width:768px) and (max-width:1157px) {
-    img {
-        width: 356px;
-        height: 300px;
-    }
 }
 
 .text {
