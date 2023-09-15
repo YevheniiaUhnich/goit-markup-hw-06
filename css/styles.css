@@ -30,13 +30,11 @@
     justify-content: space-around;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    width: 320px;
 }
 
 @media (min-width: 1158px) {
     .header-container {
-    min-width: 1158px;
-    }
+        }
 }
 .logo-header {
     text-transform: uppercase;
@@ -63,6 +61,7 @@
         display: none;
     }
 }
+
 @media(min-width:768px) {
     .container-mobile {
         display: none;
@@ -833,10 +832,8 @@
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 200px;
-    height: 160px;
-    margin-left: 40px;
-    margin-top: 40px;
+    width: 496px;
+    margin: 40px auto;
 
     
 }
@@ -845,7 +842,6 @@
     .post-title {
         font-size: 56px;
         min-width: 496px;
-        margin-top: 188px;
     }
 }
 
@@ -862,8 +858,7 @@
     flex-direction: column;
     justify-content: center;
     justify-content: center; 
-    width: 288px;
-    margin-bottom: 72px;
+
 }
 
 @media (min-width:1158px) {
@@ -918,13 +913,11 @@
     }
 }
 
-/* .section-icons-list {
+.section-icons-list {
     display: flex;
     background-color: #F4F4FD;
-    border: 1px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-} */
+    margin-bottom: 120px;
+} 
 
 @media (min-width:1158px) {
     .section-icons-list {
@@ -944,13 +937,8 @@
 }
 
 .post {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Mobdark.png); 
-    width: 320px; 
-    height: 432px; 
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover; 
@@ -959,16 +947,14 @@
 
 @media (min-width:1158px) {
     .post {
-        max-height: 600px;
-        min-width: 1158px;
         /* padding: 188px 0; */
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
-        margin-bottom: 120px;
     }
 }
 
 @media (min-resolution: 192dpi) {
     .post {
+        padding: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Mobdark.png);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/plandark.png);
@@ -1078,8 +1064,6 @@ img {
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    margin-top: 72px;
     width: 288px;
     height: 40px;
     text-align: center;
@@ -1174,8 +1158,6 @@ img {
 .block-post-team {
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 2132px;
     justify-content: center;
     background-color: #F4F4FD;  
 }
@@ -1191,9 +1173,8 @@ img {
 @media (min-width:1158px) {
     .block-post-team {
         flex-direction: row;
-        height: 732px;
-        min-width: 1158px;
         margin-top: 120px;
+        margin-bottom: 120px;
     }
 }
 
@@ -1327,12 +1308,13 @@ img {
 
 .block-portfolio {
     padding-top: 72px;
+    margin-left: 156px;
 }
 
 @media (min-width:1158px) {
     .block-portfolio {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        margin-top: 120px;
+        margin-bottom: 120px;
     }
 }
 
@@ -1341,14 +1323,10 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    width: 288px;
-    gap: 72px;
 }
 
 @media (min-width:1158px) {
     .section-title-block {
-        width: 1158px;
-        height: 780px;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
@@ -1475,17 +1453,12 @@ img {
 .last-block {
     display: flex;
     flex-direction: column;
-    background-color: #2e2f42;
-    width: 320px;
-    height: 664px; 
-    margin-top: 96px;   
+    background-color: #2e2f42; 
 }
 
 @media (min-width:1158px) {
     .last-block {
         display: block;
-        height: 312px;
-        min-width: 1158px;
         
     }
 }
@@ -1624,6 +1597,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: auto;
 }
 
 .footer-button {
@@ -1665,7 +1639,6 @@ img {
     font-weight: 500;
     color: #FFFFFF;
     margin-bottom: 16px;
-    margin-top: 72px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
@@ -1674,9 +1647,6 @@ img {
 @media(min-width:1158px) {
     .form-field {
     text-align: start;
-    margin-left: 68px;
-    margin-bottom: 16px;
-    }
 }
 
 @media(min-width:768px) and (max-width:1157px) {
@@ -1699,7 +1669,6 @@ img {
     .form-style {
         flex-direction: row;
         gap: 24px;
-        margin-left: 80px;
     }
 }
 
@@ -1723,8 +1692,8 @@ img {
 .form-style-field {
     border: 1px solid #FFFFFF;
     border-radius: 4px;
-    width: 264px;
     height: 40px;
+    width: 264px;
     background-color: transparent;
     font-size: 12px;
     line-height: 1.5; 
