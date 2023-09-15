@@ -990,7 +990,6 @@
 
 @media(min-width:768px) and (max-width:1157px) {
     .button-style {
-        margin-top: 36px;
         text-shadow: 0px, 4px, 4px, 0px #000000 15%;
         margin: auto; 
     }
@@ -998,7 +997,9 @@
 
 @media(min-width:1158px) {
     .button-style {
-        margin-bottom: 188px;
+        margin-bottom: 188;
+        margin-left: 670px;
+       
     }
 }
 
