@@ -858,6 +858,7 @@
     flex-direction: column;
     justify-content: center;
     justify-content: center; 
+    gap: 72px;
 
 }
 
@@ -875,11 +876,7 @@
     {
         display: flex;
         flex-wrap: wrap;
-        gap: 72px;
-        width: 736px;
-        height: 312px;
-        margin-bottom: 32px;
-        margin-left: 16px;
+        gap: 72px 24px;
     }
 }
 
@@ -916,7 +913,6 @@
 .section-icons-list {
     display: flex;
     background-color: #F4F4FD;
-    margin-bottom: 120px;
 } 
 
 @media (min-width:1158px) {
@@ -947,7 +943,7 @@
 
 @media (min-width:1158px) {
     .post {
-        /* padding: 188px 0; */
+        padding: 188px 0; 
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
     }
 }
@@ -1038,7 +1034,6 @@ img {
 }
 
 .tytle-section {
-    min-width:288px;
     display: flex;
     flex-direction: column;
     gap: 72px;
@@ -1046,16 +1041,14 @@ img {
 
 @media (min-width:1158px) {
     .tytle-section {
-        min-width: 1158px;
         flex-direction: row;
         gap: 12px;
+        margin-top: 120px;
     }
 }
 
 @media (min-width:768px) and (max-width:1157px) {
     .tytle-section {
-        width: 736px;
-        height: 312px;
     }
 }
 
@@ -1292,7 +1285,7 @@ img {
 
 @media (min-width:1158px) {
     .title-list {
-        margin-bottom: 60px;
+
     }
 }
 
@@ -1307,16 +1300,9 @@ img {
 }
 
 .block-portfolio {
-    padding-top: 72px;
     margin-left: 156px;
 }
 
-@media (min-width:1158px) {
-    .block-portfolio {
-        margin-top: 120px;
-        margin-bottom: 120px;
-    }
-}
 
 .section-title-block {
     display: flex;
@@ -1435,9 +1421,7 @@ img {
 }
 
 @media(min-width:1158px) {
-    .container-box {
-        margin-left: 20px;
-        margin-bottom: 100px;
+    .container-box {    
         align-items: flex-start;
     }  
 }
@@ -1453,12 +1437,14 @@ img {
 .last-block {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #2e2f42; 
 }
 
 @media (min-width:1158px) {
     .last-block {
         display: block;
+        height: 312px;
         
     }
 }
@@ -1485,6 +1471,7 @@ img {
     .box-last-text { 
         width: 264px;
         margin-bottom: 16px;
+        margin-left: 100px;
     }
 }
 
@@ -1498,12 +1485,12 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;  
     display: inline-block;
-    margin-top: 96px;
 }
 
 @media (min-width:1158px) {
     .box-last-logo {
-        margin-bottom: 16px
+    margin-top: 100px;
+    margin-left: 100px;
     }
 }
 
@@ -1521,7 +1508,8 @@ img {
 
 @media (min-width:1158px) {
     .block-icons-footer {
-        margin-left: 98px;
+        margin-top: 16px;
+        margin-left: 340px;
     }
 }
 
@@ -1564,8 +1552,6 @@ img {
     letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
-    margin-bottom: 16px;
-    margin-top: 160px; 
 }
 
 @media(min-width:768px) and (max-width:1157px) {
@@ -1574,6 +1560,14 @@ img {
         justify-content: flex-start;
         margin-left: 134px;
         margin-top: 0;
+    }
+}
+
+@media(min-width:1158px) {
+    .social-link {
+        margin-top: 100px;
+        margin-left: 240px;
+       
     }
 }
 
@@ -1587,17 +1581,14 @@ img {
     }
 }
 
-@media(min-width:1158px) {
-    .social-link {
-        margin-top: 96px;
-    }
-}
+
 
 .footer-form-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
+    margin-top: 100px;
 }
 
 .footer-button {
@@ -1661,7 +1652,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 16px; 
-    margin-left: 16px;
+    
     
 }
 
