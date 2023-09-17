@@ -1395,7 +1395,6 @@ img {
 
 @media(min-width:1158px) {
     .container-footer {
-        width: 1440px;
         flex-direction: row;        
     }
 }
@@ -1505,7 +1504,6 @@ img {
 @media (min-width:1158px) {
     .block-icons-footer {
         margin-top: 16px;
-        margin-left: 340px;
     }
 }
 
@@ -1547,7 +1545,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: flex;
-    justify-content: center;
 }
 
 @media(min-width:768px) and (max-width:1157px) {
@@ -1562,22 +1559,17 @@ img {
 @media(min-width:1158px) {
     .social-link {
         margin-top: 100px;
-        margin-left: 240px;
        
     }
 }
 
-@media(min-width:768px) and (max-width:1157px) {
-    .container-social {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: 80px;
-        margin-left: 280px;
-    }
+.container-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 80px;
+    margin-left: 280px;
 }
-
-
 
 .footer-form-section {
     display: flex;
