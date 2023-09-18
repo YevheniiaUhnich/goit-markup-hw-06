@@ -1309,6 +1309,7 @@ img {
     .last-block {
         flex-wrap: wrap;
         justify-content: flex-start;
+        height: 456px;
     }
 }
 
