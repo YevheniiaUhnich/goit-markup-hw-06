@@ -1263,23 +1263,34 @@ img {
         align-items: center;
     }
 }
+
+@media screen and (min-width:768px) {
+    .container-footer {
+        flex-direction: row;
+        flex-wrap: wrap;   
+    }
+}
+
 .container-box {
     margin-left: 108px;
     text-align: left;
     align-items:flex-start;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:320px) and (max-width:767px) {
     .container-box {
         margin-left: 0;
         align-items: center;
+    }
+}
 
-        
+@media screen and (min-width:768px) {
+    .container-box {
+
     }
 }
 
 .last-block {
-
     display: block;
     background-color: #2e2f42;
     height: 312px;
@@ -1291,7 +1302,14 @@ img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 664px;
+        height: 456px;
+}
+}
+@media screen and (min-width:768px) {
+    .last-block {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 }
 
 .box-last-text {
@@ -1324,10 +1342,17 @@ img {
     margin-bottom: 16px;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:320px) and (max-width:767px) {
     .box-last-logo {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .box-last-logo {
+        justify-content: flex-start;
+        margin-top: 96px;
     }
 }
 
@@ -1344,6 +1369,11 @@ img {
     }
 }
 
+@media screen and (min-width:768px) {
+    .container-social {
+        margin-left: 24px;
+    }
+}
 .text-studio {
     color: #f4f4fd;
     display: inline-block;
@@ -1413,6 +1443,11 @@ img {
     }
 }
 
+@media screen and (min-width:768px) {
+    .social-link {
+        text-align: start;
+    }
+}
 .footer-form-section {
     display: flex;
     flex-direction: column;
@@ -1472,6 +1507,15 @@ img {
     }
 }
 
+@media screen and (min-width:768px) {
+    .form-field  {
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 108px;
+        margin-right: 0;
+        text-align: start;
+    }
+}
 .form-style {
     display: flex;
     flex-direction: row;
@@ -1480,13 +1524,20 @@ img {
     
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:320px) and (max-width:767px) {
     .form-style {
         flex-direction: column;
         margin: 16px auto 16px auto;
     }
 }
 
+@media screen and (min-width:768px) {
+    .form-style {
+        margin-left: 108px;
+        margin-right: 0;
+
+    }
+}
 .form-style::placeholder {
     font-family: Roboto, sans-serif;
     font-size: 12px;
