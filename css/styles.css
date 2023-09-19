@@ -53,6 +53,12 @@
     }
 } 
 
+@media screen and (max-width:321px) {
+    .navigation-list {
+        display: none;
+    }
+} 
+
 .container {
     max-width: 320px;
     margin-left: auto;
