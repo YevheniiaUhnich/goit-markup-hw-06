@@ -15,7 +15,7 @@
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-@media screen and (min-width:321px) {
+@media screen and (max-width:320px) {
     .logo-header {
         display: none;
     }
@@ -71,12 +71,6 @@
     }
 } 
 
-@media screen and (max-width:321px) {
-    .logo-header {
-        display: none;
-    }
-} 
-
 .container {
     max-width: 320px;
     margin-left: auto;
@@ -126,7 +120,7 @@
     display: block;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (min-width:1158px) {
     .container-mobile {
         display: none;
     }
@@ -426,7 +420,7 @@
     color: #2E2F42;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     .logo-header {
         text-transform: uppercase;
         text-decoration: none;
@@ -441,105 +435,125 @@
     } 
 }
 
-
-.logo-header-text {
-    color: #2e2f42;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+@media screen and (min-width:768px) {
+    .logo-header-text {
+        color: #2e2f42;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+    }
 }
 
-.menu {
+/* .menu {
     display: flex;
     gap: 40px;
     top: 24px;
     left: 347px;
-}
+} */
 
 @media screen and (min-width:768px) {
     .menu {
         margin-right: 120px;
+        display: flex;
+        gap: 40px;
+        top: 24px;
+        left: 347px;
     }
-    
 }
 
-.menu-title-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #404bbf;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    padding: 24px 0;
-    
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .menu-title-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #404bbf;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        padding: 24px 0;   
+    }
 }
 
-.my-link {
-    color: #2E2F42;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    padding: 24px 0;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .my-link {
+        color: #2E2F42;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        padding: 24px 0;
+        position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
-.my-link::before {
-    text-decoration: none;
-    position: absolute left 0; 
-    bottom: - 1px;
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .my-link::before {
+        text-decoration: none;
+        position: absolute left 0; 
+        bottom: - 1px;
+    }
 }
 
-.my-link::after {
-    text-decoration: underline;
-    content: "";
-    color: #404BBF;
-    bottom: -1px;
-    left: 0;
-    height: 4px;
-    width: 100%;
-    background-color: #404bbf; 
-    border-radius: 2px;
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .my-link::after {
+        text-decoration: underline;
+        content: "";
+        color: #404BBF;
+        bottom: -1px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background-color: #404bbf; 
+        border-radius: 2px;
+    }
 }
 
-.my-link:hover {
-    color: #404bbf;
-    text-decoration: underline;
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .my-link:hover {
+        color: #404bbf;
+        text-decoration: underline;
+    }
 }
 
-.my-link:focus {
-    color: #404bbf;
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .my-link:focus {
+        color: #404bbf;
+    }
 }
 
-.carent {
-    position: relative;
-    color: #404BBF;
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .carent {
+        position: relative;
+        color: #404BBF;
+    }
 }
 
-.carent::after {
-    text-decoration: underline;
-    content: "";
-    color: #404BBF;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    height: 4px;
-    width: 100%;
-    background-color: #404bbf; 
-    border-radius: 2px;
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .carent::after {
+        text-decoration: underline;
+        content: "";
+        color: #404BBF;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background-color: #404bbf; 
+        border-radius: 2px;
+    }
 }
 
-
-.link-contact {
-    font-style: normal;
-    text-decoration: none;
+@media screen and (min-width:768px) and (min-width:1158px) {
+    .link-contact {
+        font-style: normal;
+        text-decoration: none;
+    }
 }
+
 
 @media screen and (min-width:768px) {
     .link-contact-text {
