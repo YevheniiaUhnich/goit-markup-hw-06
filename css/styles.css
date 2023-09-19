@@ -102,6 +102,15 @@
 .logo-header-mobile {
     margin-top: 16px;
     margin-bottom: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    display: block;
 }
 
 @media screen and (min-width:768px) {
@@ -404,18 +413,21 @@
     color: #2E2F42;
 }
 
-.logo-header {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
-    display: block;
-    margin-right: 76px;
+@media screen and (min-width:768px){
+    .logo-header {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: #4d5ae5;
+        display: block;
+        margin-right: 76px;
+    } 
 }
+
 
 .logo-header-text {
     color: #2e2f42;
@@ -914,11 +926,26 @@ img {
     margin-bottom: 8px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:320px) and (max-width:768px) {
+    .icons-section {
+        display: none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
     .section-icons-list {
         display: none;
     }
 }
+
+/* .section-icons-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    width: 264px;
+} */
 
 .text {
     font-family: Roboto, sans-serif;
@@ -996,15 +1023,6 @@ img {
         height: 224px;
         justify-content: center;
     }
-}
-
-.section-icons-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    width: 264px;
 }
 
 .title {
