@@ -887,6 +887,8 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 208px;
 }
 
@@ -911,9 +913,9 @@
 .post {
     width: 320px;
     height: 432px;
-    padding: 88px 0 88px 32px;
+    padding: 88px 0 88px 0px;
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Mobdark.png); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ \(3\).jpg); 
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover; 
@@ -922,7 +924,7 @@
 
 @media screen and (min-width:768px) {
     .post {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/plandark.png);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ \(3\).jpg);
         width: 768px;
         height: 436px;
         margin-bottom: 32px;
@@ -933,14 +935,13 @@
 @media screen and (min-width:1158px) {
     .post {
         width: 1158px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.png);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     }
 }  
 
 @media screen and (min-resolution: 192dpi) {
     .post {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people@2x.png);
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/plandark.png);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1\ \(1\).jpg);
     }
 }
 
@@ -1035,21 +1036,18 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 72px;
-    margin-top: 96px;
-    margin-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 @media screen and (min-width:768px) {
     .tytle-section {
         flex-direction: row;
-        gap: 12px;
         height: 312px;
     }
 }
 @media screen and (min-width:1158px) {
     .tytle-section {
-        margin-top: 120px;
         height: 224px;
     }    
 }
@@ -1074,7 +1072,7 @@ img {
 
 .tytle-list-section {
     display: flex;
-    gap: 24px;
+    gap: 72px;
     flex-direction: column;
     justify-content: center;
 }
@@ -1083,7 +1081,7 @@ img {
     .tytle-list-section  {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 72px 24px;
+        gap: 24px;
         justify-content: flex-start;
 
     }
@@ -1105,6 +1103,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px; 
+    text-align: center;
+    width: 264px;
 
 }
 
