@@ -160,7 +160,7 @@
     position: absolute;
     top: 50%;
     left: 50%; 
-    transform: translate(-60%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
     width: 288px;
     height: 623px;
     background: #fcfcfc;
@@ -664,7 +664,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-60%, -50%) scale(1); 
+    transform: translate(-50%, -50%) scale(1); 
     width: 288px;
     height: 623px;
     background: rgba(255, 255, 255, 1);
@@ -894,7 +894,7 @@
 
 @media screen and (min-width:768px) {
     .post-title {
-        min-width: 496px;
+        max-width: 496px;
         font-size: 56px;
     }
 }
@@ -902,7 +902,6 @@
 @media screen and (min-width:1158px) {
     .post-title {
         font-size: 56px;
-        margin-left: 194px;
     }
 }  
 
@@ -935,7 +934,6 @@ screen and (min-device-pixel-raito: 2) {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
         width: 768px;
         height: 436px;
-        margin-bottom: 32px;
         padding: 92px;
     }
 }
@@ -1041,7 +1039,6 @@ img {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
 }
 
 @media screen and (min-width:1185px) {
@@ -1061,12 +1058,12 @@ img {
 @media screen and (min-width:768px) {
     .tytle-section {
         flex-direction: row;
-        height: 312px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }
 @media screen and (min-width:1158px) {
     .tytle-section {
-        height: 224px;
     }    
 }
 
@@ -1076,15 +1073,13 @@ img {
 
 @media screen and (min-width:768px)  {
     .tytle-section-list {
-        width: 356px;
+        width: calc((100% - 24px) / 2);
         margin: 0;
     }
 }
 
 @media screen and (min-width:1158px) {
     .tytle-section-list {
-        max-width: 264px;
-        height: 224px;
     }
 }
 
@@ -1167,6 +1162,7 @@ img {
         gap: 24px;  
         margin-left: 0;
         margin-bottom: 120px;
+        justify-content: center;
     }
 }
 
@@ -1215,12 +1211,16 @@ img {
         background-color: #F4F4FD;
         padding-top: 96px;
         padding-bottom: 96px; 
+        width: 296px;
 }
 
 @media screen and (min-width: 768px) {
     .block-post-team {
-        width: 768px;
-
+        width:564px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -1269,6 +1269,8 @@ img {
 } 
 
 .block-cards-team {
+    margin-left: auto;
+    margin-right: auto;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px; 
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -1313,14 +1315,15 @@ img {
 .block-portfolio {
     padding-top: 96px;
     padding-bottom: 96px;
+    width: 298px;
 }
 
 @media screen and (min-width:768px) {
     .block-portfolio {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    
+        padding-top: 120;
+        padding-bottom: 120;
+        width: 736px;
+    } 
 }
 
 .title-list {
@@ -1338,7 +1341,7 @@ img {
 
 @media screen and (min-width:768px) {
     .title-list {
-        margin-bottom: 12px;
+
     }
 }
 
@@ -1357,8 +1360,10 @@ img {
 
 @media screen and (min-width:768px) {
     .section-title-block {
-        width: 736px;
-        height: 1516px;
+        width: calc((100% - 24) / 2);
+        flex-direction: row;
+        row-gap: 24px;
+        column-gap: 72px;
     } 
 }
 
@@ -1378,15 +1383,13 @@ img {
 }
 
 .description-portfolio {
-    /* width: calc((100% - 48px) / 3); */
+    width: 288px;
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media screen and (min-width:768px) {
-    .description-portfolio {
-        margin-right: 8px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    
 }
 
 .description-potfolio:hover {
@@ -1441,11 +1444,11 @@ img {
         flex-direction: column; 
 }
 
-@media screen and (min-width:768px) and (max-width:1157px) {
+@media screen and (min-width:768px) {
     .container-footer {
+        width: 584px;
         flex-wrap: wrap;  
         flex-direction: row;  
-        justify-content: center;
     }
 }
 
