@@ -647,7 +647,7 @@
         margin-left: 42px;   
     }
 }
-
+ 
 .backdrop-mobile {
     position: fixed; 
     top: 0;
@@ -658,9 +658,9 @@
     z-index: 9999;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} 
 
-.modal-window-mobile {
+ .modal-window-mobile {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -675,7 +675,7 @@
     padding-left: 16px;
     padding-top: 40px;
     padding-bottom: 40px;
-}
+} 
 
 .menu-mobile {
     display: flex;
@@ -1196,11 +1196,11 @@ img {
 }
 
 .blok-post-team {
+    background-color: #F4F4FD;
         display: flex;
         width: 320px;
         flex-direction: column;
         justify-content: center;
-        background-color: #F4F4FD;
         padding-top: 96px;
         padding-bottom: 96px; 
         width: 296px;
