@@ -1144,7 +1144,6 @@ img {
         flex-wrap: nowrap;
         height: 428px;
         gap: 24px;  
-        margin-bottom: 120px;
         justify-content: center;
     }
 }
