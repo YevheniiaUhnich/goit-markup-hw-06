@@ -660,7 +660,7 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
- .modal-window-mobile {
+.modal-window-mobile {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -877,7 +877,6 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .post-title {
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -905,13 +904,7 @@
     }
 }  
 
-.icons-section {
-
-}
-
 .post {
-    /* width: 320px;
-    height: 432px; */
     padding: 88px 0 88px 0px;
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg\ \(2\).jpg); 
@@ -933,7 +926,6 @@ screen and (min-device-pixel-raito: 2) {
     .post {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
         padding: 92px;
-        /* width: 768px; */
     }
 }
 
@@ -947,7 +939,6 @@ screen and (min-device-pixel-raito: 2) and (min-width:768px) {
 
 @media screen and (min-width:1158px) {
     .post {
-        /* width: 1300px; */
         padding-top: 88px;
         padding-bottom: 88px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
@@ -1365,7 +1356,6 @@ img {
 }
 
 .description-portfolio {
-    width: 288px;
     position: relative;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: auto;
