@@ -91,6 +91,7 @@
         max-width: 1158px;
         margin-left: 0;
         margin-right: 0;
+        padding: 0 15px;
     }  
 }
 
@@ -119,7 +120,7 @@
     display: block;
 }
 
-@media screen and (max-width:1158px) {
+@media screen and (min-width:1158px) {
     .logo-header-mobile {
         margin-top: 24px;
     }
