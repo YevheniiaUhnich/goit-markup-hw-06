@@ -1195,20 +1195,18 @@ img {
     fill: #f4f4fd;
 }
 
-.blok-post-team {
+.block-post-team {
     background-color: #F4F4FD;
         display: flex;
-        width: 320px;
         flex-direction: column;
         justify-content: center;
         padding-top: 96px;
         padding-bottom: 96px; 
-        width: 296px;
 }
 
 @media screen and (min-width: 768px) {
     .block-post-team {
-        width:564px;
+
         padding-top: 120px;
         padding-bottom: 120px;
         margin-left: auto;
