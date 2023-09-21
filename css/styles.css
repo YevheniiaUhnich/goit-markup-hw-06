@@ -906,7 +906,7 @@
 }  
 
 .icons-section {
-    margin: auto;
+
 }
 
 .post {
@@ -932,9 +932,8 @@ screen and (min-device-pixel-raito: 2) {
 @media screen and (min-width:768px) {
     .post {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
-        width: 768px;
-        height: 436px;
         padding: 92px;
+        width: 768px;
     }
 }
 
@@ -948,7 +947,9 @@ screen and (min-device-pixel-raito: 2) and (min-width:768px) {
 
 @media screen and (min-width:1158px) {
     .post {
-        width: 1158px;
+        width: 1300px;
+        padding-top: 88px;
+        padding-bottom: 88px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     }
 }  
@@ -1003,6 +1004,7 @@ img {
     border: 1px;
     border-radius: 4px;
     margin-bottom: 8px;
+    justify-content: center;
 }
 
 @media screen and (min-width:320px) and (max-width:767px) {
@@ -1023,18 +1025,8 @@ img {
     }
 }
 
-/* .section-icons-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    width: 264px;
-} */
-
 .text {
     font-family: Roboto, sans-serif;
-    font-weight: 500;
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
@@ -1043,7 +1035,6 @@ img {
 
 @media screen and (min-width:1185px) {
     .text {
-        font-weight: 400;
     }
 }
 
@@ -1064,11 +1055,12 @@ img {
 }
 @media screen and (min-width:1158px) {
     .tytle-section {
+
     }    
 }
 
 .tytle-section-list {
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 72)); 
 }
 
 @media screen and (min-width:768px)  {
@@ -1080,6 +1072,8 @@ img {
 
 @media screen and (min-width:1158px) {
     .tytle-section-list {
+        width: 264px;
+        height: 224px;
     }
 }
 
@@ -1141,7 +1135,6 @@ img {
     flex-direction: column;
     justify-content: center;
     gap: 72px;  
-    width: 296px;
 }
 
 @media screen and (min-width:768px) {
@@ -1160,7 +1153,6 @@ img {
         flex-wrap: nowrap;
         height: 428px;
         gap: 24px;  
-        margin-left: 0;
         margin-bottom: 120px;
         justify-content: center;
     }
@@ -1226,7 +1218,6 @@ img {
 
 @media screen and (min-width:1158px) {
     .block-post-team {
-        width: 1158px;
         flex-direction: row;
     }
 }
@@ -1315,14 +1306,12 @@ img {
 .block-portfolio {
     padding-top: 96px;
     padding-bottom: 96px;
-    width: 298px;
 }
 
 @media screen and (min-width:768px) {
     .block-portfolio {
         padding-top: 120;
         padding-bottom: 120;
-        width: 736px;
     } 
 }
 
@@ -1360,20 +1349,15 @@ img {
 
 @media screen and (min-width:768px) {
     .section-title-block {
-        width: calc((100% - 24) / 2);
         flex-direction: row;
-        row-gap: 24px;
-        column-gap: 72px;
+        row-gap: 72px;
+        column-gap: 24px;
     } 
 }
 
 @media screen and (min-width:1158px) {
 .section-title-block {
-        flex-direction: row;
-        flex-wrap: wrap;
-        min-width: 1128px;
         justify-content: center;
-        height: 1000px; 
     }
 }
 
@@ -1388,7 +1372,6 @@ img {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 48px;
     
 }
 
@@ -1442,7 +1425,8 @@ img {
 .container-footer {
         display: flex;
         flex-direction: column; 
-}
+        gap: 72px;
+    }
 
 @media screen and (min-width:768px) {
     .container-footer {
@@ -1511,7 +1495,6 @@ img {
 }
 
 .box-last-text {
-        margin-bottom: 72px;
         color: #F4F4FD;
         font-family: Roboto, sans-serif;
         font-weight: 400;
@@ -1520,13 +1503,6 @@ img {
         letter-spacing: 0.02em;   
         width: 264px; 
     }
-
-@media screen and (min-width:768px) {
-    .box-last-text {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-}
 
 .box-last-logo {
         display: flex;
@@ -1539,7 +1515,6 @@ img {
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: #4d5ae5;  
-        margin-bottom: 16px;
     }
 
 @media screen and (min-width:768px) {
@@ -1658,13 +1633,7 @@ img {
 @media screen and (min-width:768px) {
     .footer-button {
         width: 165px;
-        margin-left: 12px;
         margin-top: 0;
-    }
-}
-
-@media screen and (min-width:1158px) {
-    .footer-button {
     }
 }
 
@@ -1689,9 +1658,7 @@ img {
 @media screen and (min-width:1158px) {
     .form-field {
         text-align: start;
-        margin-bottom: 16px;
-        margin-left: 24px;
-        
+        margin-bottom: 16px;        
     }
 }
 
