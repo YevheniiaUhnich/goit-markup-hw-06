@@ -1317,12 +1317,6 @@ img {
     margin-bottom: 72px;
 }
 
-@media screen and (min-width:768px) {
-    .title-list {
-
-    }
-}
-
 @media screen and (min-width:1158px) {
     .title-list {
         margin-bottom: 120px;
@@ -1342,12 +1336,6 @@ img {
         row-gap: 72px;
         column-gap: 24px;
     } 
-}
-
-@media screen and (min-width:1158px) {
-.section-title-block {
-        justify-content: center;
-    }
 }
 
 .section-title-block:hover {
