@@ -22,8 +22,8 @@
     }
 } */
 .mobile-menu-open-button {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    /* margin-top: 16px;
+    margin-bottom: 16px; */
     cursor: pointer;
     justify-content: center;
     align-items: center;
@@ -142,6 +142,8 @@
     display: block;
     align-items: center;
     margin-right: 149px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 @media screen and (min-width:768px) {
