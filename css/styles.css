@@ -129,6 +129,7 @@
 @media screen and (min-width:768px) {
     .logo-header-mobile {
         margin-top: 24px;
+        margin-right: 120px;
     }
 }
 
@@ -579,6 +580,7 @@
 @media screen and (min-width:768px) {
     .link-contact-text {
         color: #434455;
+        font-size: 12px;
         text-decoration: none;
         font-style: normal;
         display: block;
@@ -928,7 +930,7 @@ screen and (min-device-pixel-raito: 2) {
 @media screen and (min-width:768px) {
     .post {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
-        padding: 92px;
+        padding: 112px;
     }
 }
 
@@ -1049,7 +1051,6 @@ img {
 @media screen and (min-width:768px) {
     .tytle-section {
         flex-direction: row;
-        padding-top: 120px;
         padding-bottom: 120px;
     }
 }
@@ -1207,6 +1208,7 @@ img {
     .block-post-team {
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 0;
     }
 }
 
@@ -1412,6 +1414,9 @@ img {
         flex-wrap: wrap;  
         flex-direction: row;  
         justify-content: center;
+        gap: 0;
+
+
     }
 }
 
@@ -1428,13 +1433,15 @@ img {
         align-items: center;
         justify-content: flex-start;
         gap: 16px;
-        margin-right: 124px;
     }
 
 @media screen and (min-width:768px) {
         .container-box {
-            text-align: left;
             align-items:flex-start;
+            margin-right: 24px;
+            margin-bottom: 72px;
+            margin-left: 28px;
+
         }
     }
     
@@ -1487,6 +1494,7 @@ img {
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: #4d5ae5;  
+
     }
 
 @media screen and (min-width:768px) {
@@ -1498,12 +1506,15 @@ img {
 .container-social {
         display: flex;
         flex-direction: column;
-        justify-content: center; 
     }
+
+
 
 @media screen and (min-width:1158px) {
     .container-social {
         justify-content: flex-start;
+        margin-right: 40px;
+        margin-left: 60px;
     }
 }
 
@@ -1567,18 +1578,15 @@ img {
     }
 }
 
-
-
 .footer-form-section  {
         display: flex;
         flex-direction: column;
         justify-content: center;   
     }
 
-@media screen and (min-width:1158px) {
+@media screen and (min-width:768px) {
     .footer-form-section {
         justify-content: flex-start;
-        margin-left: auto;
         }
     }
 
@@ -1711,9 +1719,7 @@ input::placeholder {
 }
  ul {
     list-style-type: none;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0;
     padding-left: 0;
  }
 
