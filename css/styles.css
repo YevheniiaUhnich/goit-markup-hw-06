@@ -1438,6 +1438,7 @@ img {
     .container-footer {
         flex-wrap: nowrap;
         flex-direction: row;
+        gap: unset;
     }
 }
 
@@ -1698,6 +1699,12 @@ img {
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); 
     color: #ffffff;
+}
+
+@media screen and (min-width:1158px) {
+    .form-style-field {
+        width: 264px;
+    }    
 }
 
 input::placeholder {
